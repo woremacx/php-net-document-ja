@@ -110,6 +110,7 @@ sub fetch {
     }
     my $res = $ua->get( $key );
     $cache->set( $key, nfreeze($res) );
+    sleep(1);
     return $res;
 }
 
