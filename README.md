@@ -1,4 +1,4 @@
-# php-net-langref-ja
+# php-net-document-ja
 php.net の日本語ドキュメントの epub を生成
 
 * http://php.net/manual/ja/langref.php
