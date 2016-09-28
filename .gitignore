@@ -18,3 +18,8 @@ nytprof.out
 *.o
 *.bs
 /_eumm/
+
+/.perl-version
+/cache/
+/local/
+/work/
