@@ -12,6 +12,7 @@ use Storable qw(nfreeze thaw);
 
 my $workdir = 'work';
 my $top = 'http://php.net/manual/ja/langref.php';
+my $filename = "langref.epub";
 
 my $template = << 'TMPL;';
 <?xml version="1.0" encoding="UTF-8"?>
@@ -135,7 +136,6 @@ sub main {
         process_page($uri);
     }
 
-    my $filename = "output.epub";
     $epub->pack_zip($filename);
 }
 
